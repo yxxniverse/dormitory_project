@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass"
+    app:umanoDragView="@id/slide_layout"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/theme_blue">
+
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="300dp"
+            android:layout_height="310dp"
+            android:layout_marginTop="96dp"
+            android:background="@drawable/frame_realcalendar"
+            android:firstDayOfWeek="2"
+            android:focusedMonthDateColor="@color/theme_blue2"
+            android:fontFamily="@font/neodgm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:mcv_selectionColor="@color/theme_blue2"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/main_qr_btn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/frame_menu_btn"
+            android:fontFamily="@font/netmarbleb"
+            android:text="qr체크"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.137"
+            app:layout_constraintStart_toStartOf="@id/calendarView"
+            app:layout_constraintTop_toTopOf="@id/calendarView"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/main_submission_btn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/frame_menu_btn"
+            android:fontFamily="@font/netmarbleb"
+            android:text="외박신청"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.721"
+            app:layout_constraintStart_toStartOf="@id/calendarView"
+            app:layout_constraintTop_toTopOf="@id/calendarView"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/slide_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/theme_blue">
+
+        <TextView
+            android:id="@+id/swipe_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/theme_blue"
+            android:layout_margin="25dp"
+            android:text="MENU"
+            android:textSize="20dp"
+            android:fontFamily="@font/netmarbleb"
+            android:textColor="@color/theme_blue3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/userNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/theme_blue"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/netmarbleb"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/swipe_up"/>
+
+        <TextView
+            android:id="@+id/dormNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/theme_blue"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/netmarbleb"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/userNameView"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/mypage_btn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/frame_menu_btn"
+            android:fontFamily="@font/netmarbleb"
+            android:textColor="@color/white"
+            android:text="마이페이지"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/swipe_up"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/overnight_submission_btn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/frame_menu_btn"
+            android:fontFamily="@font/netmarbleb"
+            android:textColor="@color/white"
+            android:text="외박 신청"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/mypage_btn"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/submission_list_btn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="55dp"
+            android:text="외박 관리"
+            android:textSize="20dp"
+            android:background="@drawable/frame_menu_btn"
+            android:fontFamily="@font/netmarbleb"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/overnight_submission_btn"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/qr_btn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="55dp"
+            android:text="QR 체크인"
+            android:textSize="20dp"
+            android:background="@drawable/frame_menu_btn"
+            android:fontFamily="@font/netmarbleb"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/submission_list_btn"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/logout_btn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="55dp"
+            android:text="로그아웃"
+            android:textSize="20dp"
+            android:background="@drawable/frame_menu_btn"
+            android:fontFamily="@font/netmarbleb"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/qr_btn"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

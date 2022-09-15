@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/drawable/frame_checkbox.xml" value="0.1" />
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/drawable/frame_menu_btn.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/font/font.xml" value="0.10925925925925926" />
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/layout/activity_checkin.xml" value="0.22" />
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/layout/activity_edit.xml" value="0.2163323782234957" />
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/layout/activity_form.xml" value="0.22" />
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/layout/activity_info.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/layout/activity_join.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/layout/activity_mypage.xml" value="0.22" />
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/layout/activity_qrscanner.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/layout/activity_setting.xml" value="0.22" />
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/layout/calendar.xml" value="0.22" />
+        <entry key="..\:/Users/USER/mobileAppProject1/app/src/main/res/layout/custom_listview_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/drawable/calender_ev.xml" value="0.1953125" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/drawable/frame_calendar.xml" value="0.22" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/drawable/frame_login_btn.xml" value="0.1" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/drawable/frame_login_edt.xml" value="0.1" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/drawable/frame_menu.xml" value="0.1" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/drawable/google_pixe.xml" value="0.1953125" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1953125" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/drawable/login_btn.xml" value="0.1953125" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/drawable/login_edt.xml" value="0.1" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/font/font.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/layout/calander.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/layout/calendar.xml" value="0.1" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/layout/login_page.xml" value="0.22" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/layout/menu.xml" value="0.22" />
+        <entry key="..\:/Users/USER/test/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1953125" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.18802083333333333" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/drawable/frame_calendar.xml" value="0.18802083333333333" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/drawable/frame_login_btn.xml" value="0.18802083333333333" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/drawable/frame_login_edt.xml" value="0.18802083333333333" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/drawable/frame_menu.xml" value="0.18802083333333333" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18802083333333333" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/font/font.xml" value="0.19895833333333332" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/layout/activity_checkin.xml" value="0.264" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/layout/activity_edit.xml" value="0.264" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/layout/activity_form.xml" value="0.264" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/layout/activity_info.xml" value="0.2" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/layout/activity_join.xml" value="0.2" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/layout/activity_login.xml" value="0.16875" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/layout/activity_main.xml" value="0.16875" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/layout/activity_qrscanner.xml" value="0.27447916666666666" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/layout/activity_setting.xml" value="0.264" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/layout/calendar.xml" value="0.16875" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18177083333333333" />
+        <entry key="..\:/mobileAppProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.18177083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_blue">
+
+    <TextView
+        android:id="@+id/join_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:background="@color/theme_blue"
+        android:fontFamily="@font/netmarbleb"
+        android:text="알림설정"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="320dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="38dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/join_textView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/netmarbleb"
+            android:switchMinWidth="50dp"
+            android:switchPadding="18dp"
+            android:text=" 푸시알림"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/theme_blue3" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/theme_blue2" />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/netmarblem"
+            android:switchMinWidth="50dp"
+            android:switchPadding="18dp"
+            android:text=" 출입인증"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/theme_blue3" />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/netmarblem"
+            android:switchMinWidth="50dp"
+            android:switchPadding="18dp"
+            android:text=" 도착일알림"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/theme_blue3" />
+
+        <Button
+            android:id="@+id/enter_btn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/frame_login_btn"
+            android:fontFamily="@font/netmarbleb"
+            android:text="적용하기"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
